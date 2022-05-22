@@ -1,4 +1,4 @@
-# prog_est_prog39.2
+# prog_est_prog44.1
 <p><b>Autor:</b> Xavier Romero Hernández, <b>Fecha:</b> 18/04/2022 <br>
   <b>Escuela:</b> Universidad del Valle de Mexico <b>Campus</b> Villahermosa<br>
   <b>Materia:</b> Programación Estructrada<br>
@@ -19,23 +19,26 @@ Presenta el uso de:
     <li>Ciclo for</li>
     <li>Arreglos</li>
     <li>Funciones y Prototipos</li>
+    <li>struct</li>
   </ul>
 </p>
 
-<b>Objetivo:</b> Hacer uso de una libreria creada por mi, donde se almacenen las funciones más usadas y asi llamarlas desde el programa principal
+<b>Objetivo:</b><br>
+Hacer uso de una libreria creada por mi, donde se almacenen las funciones más usadas y asi llamarlas desde el programa principal<br>
+Hacer el uso de estructuras para almacenas los datos asignandolos a un objeto<br>
 
 <p><b>Breve descripcion:</b><br>
 El programa almacena las calificaciones de un alumno y su faltas para un grupo de 10 alumnos, opera con mediante un menú<br>
 El programa tiene las siguientes opciones:
   <ol start="0">
     <li>Salir</li>
-    <li>Introducir datos del alumno (calificaciones y faltas)</li>
+    <li>Agregar alumnos</li>
     <li>Imprimir</li>
+    <li>Alumnos Aprobados</li>
+    <li>Alumnos Reprobados</li>
     <li>Promedio del grupo</li>
-    <li>Cuantos aprobaron</li>
-    <li>Porcentaje de asistencia de cada alumno (32 asistencias)</li>
+    <li>Porcentaje de alumnos Aprobados</li>
   </ol>
-Tomando de base el programa anterior, se agregaron los siguientes parámetros para calcular los promedios: <br>
 Para hacer operaciones con las calificaciones de los alumnos se siguen las siguientes reglas<br>
 Si el numero de faltas es <=6, la calificación es la que esta almacenada en el dato promedio de la estructura<br>
 Pero si no, la calificación que se toma es 5
